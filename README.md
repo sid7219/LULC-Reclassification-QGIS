@@ -1,4 +1,4 @@
-# Land Use Land Cover (LULC) Reclassification using QGIS
+# Land Use Land Cover Classification and Spatial Analysis of Bihar Using QGIS
 
 ## Project Overview
 
