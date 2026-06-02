@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project demonstrates raster reclassification of ESRI Land Use Land Cover (LULC) data using QGIS.
+This project presents a Land Use Land Cover (LULC) classification and spatial analysis of Bihar using the ESRI Global Land Cover dataset (10 m resolution) in QGIS. The workflow involved raster reclassification of detailed land cover classes into broader categories, followed by binary classification to isolate individual land cover types for class-specific analysis.
 
-The objective was to simplify detailed land cover classes into broader categories for easier interpretation and spatial analysis.
+The project demonstrates the application of GIS techniques for land cover mapping, spatial analysis, and visualization.
 
 ## Study Area
 
@@ -18,19 +18,41 @@ Bihar, India
 
 ## Reclassified LULC Map
 
+The original land cover classes were reclassified into the following major categories:
+
+- Water Bodies
+- Vegetation
+- Agriculture
+- Built-up Area
+- Bare Land
+
 ![Reclassified LULC](reclassified_lulc_map.png)
+
+Binary classification rasters were generated for each major land cover class by separating the target class from all other land cover categories.
+
+- Water vs Non-Water
+- Vegetation vs Non-Vegetation
+- Agriculture vs Non-Agriculture
+- Built-up Area vs Non-Built-up Area
+- Bare Land vs Non-Bare Land
+
+## Binary Classification Outputs
+
+![Binary Classification Outputs](binary_classification.png)
 
 ## Dataset
 
-- ESRI Land Cover Dataset
+- ESRI Global Land Cover Dataset (2024)
 - Spatial Resolution: 10 m
+- Study Area: Bihar, India
 
-## Software Used
+## Software and Tools Used
 
 - QGIS
 - Semi-Automatic Classification Plugin (SCP)
 - Raster Calculator
-- Reclassification Tools
+- Raster Reclassification Tools
+- QGIS Layout Manager
 
 ## Methodology
 
@@ -39,11 +61,13 @@ Bihar, India
 3. Examined existing land cover classes.
 4. Reclassified detailed classes into:
    - Water Bodies
+   - Agricultural Area
    - Vegetation
    - Built-up Areas
    - Barren Land
-5. Generated thematic maps.
-6. Calculated area statistics for each class.
+5. Generated binary classification rasters for individual classes.
+6. Generated thematic maps.
+7. Calculated area statistics for each class.
 
 ## Results
 
@@ -61,8 +85,16 @@ Total Area Analyzed: 88,056 km²
 ## Skills Demonstrated
 
 - GIS Analysis
+- LULC Analysis
 - Raster Processing
 - Raster Reclassification
-- Land Use Land Cover Analysis
+- Binary Classification
+- Spatial Analysis
+- Cartographic Visualization
 - QGIS
-- SCP
+  
+Siddharth Gupta
+
+B.Tech Geoinformatics
+
+Netaji Subhas University of Technology (NSUT)
