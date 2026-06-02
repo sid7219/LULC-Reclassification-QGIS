@@ -8,7 +8,17 @@ The objective was to simplify detailed land cover classes into broader categorie
 
 ## Study Area
 
-**Bihar, India**
+Bihar, India
+
+![Study Area](bihar_boundary.png)
+
+## Original ESRI LULC Dataset
+
+![Original LULC](original_lulc.png)
+
+## Reclassified LULC Map
+
+![Reclassified LULC](reclassified_lulc_map.png)
 
 ## Dataset
 
